@@ -1,0 +1,22 @@
+{
+    "name": "eugene-chernyshenko/vkontakte-php-sdk",
+    "description": "Vkontakte PHP SDK",
+    "keywords": ["vkontakte", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/eugene-chernyshenko/vkontakte-php-sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eugene-chernyshenko",
+            "homepage": "https://github.com/eugene-chernyshenko"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
