@@ -410,7 +410,7 @@ class Vkontakte
     {
 
         $response = $this->api('photos.getWallUploadServer', [
-            'v'        => '3.0'
+            'v'        => '3.0',
             'group_id' => $publicID,
         ]);
         /*
